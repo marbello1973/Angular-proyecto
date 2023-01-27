@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name":"Manuel",
+        "lastname":"Mitacc",
+        "age":23,
+        "email":"manu@gmail,com",
+        "posts":[]
+    },
+
+    {
+        "id":1,
+        "title":"repaso",
+        "contents":"Modulo 3 PT10a"
+
+    }
+
+]

@@ -1,0 +1,46 @@
+{
+  "ciudades": [
+    {
+      "id": "2fc46a23-eb04-4791-bd7c-fc32ce247a37",
+      "nombre": "Paraguay",
+      "poblacion": 178059,
+      "latitud": "32.3214"
+    },
+    {
+      "id": "'c9629ddd-9bf3-45b7-b7c9-c54b9cd13b27",
+      "nombre": "Etiopía",
+      "poblacion": 161853,
+      "latitud": "-37.3782"
+    },
+    {
+      "id": "6cfcdb49-dc70-4cde-913d-18b077311bb6",
+      "nombre": "Barcelona",
+      "poblacion": 110115,
+      "latitud": "26.6053"
+    }
+  ],
+  "codigosPostales": [
+    {
+      "codigoPostal": "979282",
+      "ciudades": [
+        {
+          "id": "ef9ac498-daf8-409a-abec-9989ef60af53",
+          "nombre": "Tailandia",
+          "poblacion": 139577,
+          "latitud": "77.6874"
+        }
+      ]
+    },
+    {
+      "codigoPostal": "82087",
+      "ciudades": [
+        {
+          "id": "cbe3467f-c483-4f56-91f7-092b52822b8c",
+          "nombre": "Eslovaquia",
+          "poblacion": 151233,
+          "latitud": "29.7488"
+        }
+      ]
+    }
+  ]
+}

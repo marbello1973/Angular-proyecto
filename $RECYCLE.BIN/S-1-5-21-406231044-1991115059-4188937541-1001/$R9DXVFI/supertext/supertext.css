@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.editor1,
+.editor2
+ {
+  position: relative;
+  min-width: 200px;
+  min-height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea.editable,
+div.supertext-content {
+  position: absolute;
+  top: 0;
+  font-size: 1rem;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  height: 156px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 3px;
+  border: 1px solid #333;
+}
+
+textarea.editable {
+  overflow-x: none;
+  overflow-y: auto;
+  resize: none;
+  color: transparent;
+  background: transparent;
+}
+
+textarea.editable:focus {
+  outline: none;
+}
+
+div.supertext-content {
+  overflow: hidden;
+}
+
+.caret {
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  width: 1px;
+  background: #000;
+  opacity: 1;
+}
+
+.caret[hidden] {
+  opacity: 0;
+}
